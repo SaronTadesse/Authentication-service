@@ -1,9 +1,7 @@
 rootProject.name = 'saron-authentication-service'
-include 'Authentication-service-controller'
 include 'Authentication-service-flow'
-include 'Authentication-service-controller'
 include 'Authentication-service-persistance'
 include 'Authentication-service-controller'
 include 'Authentication-service-model'
-include 'Authentication-service-model'
+include 'Authentication-service-web'
 

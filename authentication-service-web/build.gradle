@@ -1,0 +1,15 @@
+plugins {
+    id 'base'
+}
+
+task buildFrontend(type: Exec) {
+    workingDir 'Authentication-service-web'
+    commandLine 'npm', 'run', 'build'
+}
+
+task cleanFrontend(type: Delete) {
+    delete 'Authentication-service-web/build'
+}
+
+clean.dependsOn cleanFrontend
+assemble.dependsOn buildFrontend

@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/Authentication-service-flow" />
             <option value="$PROJECT_DIR$/Authentication-service-model" />
             <option value="$PROJECT_DIR$/Authentication-service-persistance" />
+            <option value="$PROJECT_DIR$/Authentication-service-web" />
           </set>
         </option>
       </GradleProjectSettings>
